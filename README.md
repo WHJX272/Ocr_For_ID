@@ -31,3 +31,4 @@ python run.py --input <测试图片所在文件夹> --output <生成文件存放
    1. 使用 `conda search <package>` 搜索依赖
    2. 使用 `conda install <package>=<version>` 安装依赖
    3. 尽量安装新版本的依赖(最好不要让 conda 更改原有依赖)
+8. 一般来说，此项目按前面步骤配好环境后只需安装cv2即可，请前往Anaconda Navigator中的Environment搜索下载
