@@ -5,6 +5,7 @@
 ### 前期试错
 我在这里给出一些我前期的部分试错步骤。
 思路是先不管赛题，做出一个能识别身份证的模型。
+这里在study_and_makeError文件夹里提供了早期的模型。
 ![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/4.png)
 ![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/5.png)
 ![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/6.png)
