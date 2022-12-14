@@ -1,21 +1,18 @@
-### 注意事项
-1. 显存不足 16 G 不要训练 CTPN 网络(运行 ctpn 包下的 `train.py`)
-2. 显存 4G 即可训练 CRNN 网络(可能不需要 4G, 但未测试)
-3. 可通过 data_generator 更换 CRNN 网络训练, 测试数据。如果需要更改数据生成文件夹, 尽量通过参数, 避免修改源文件
-
-### 基本使用
-**python 环境下的使用**
-```python
-python run.py --input <测试图片所在文件夹> --output <生成文件存放文件夹>
-```
-
-**IDE 环境下的使用**
-
-直接运行 `run` 文件即可
+### 赛题背景
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/1.png)
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/2.png)
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/3.png)
+### 前期试错
+我在这里给出一些我前期的部分试错步骤。
+思路是先不管赛题，做出一个能识别身份证的模型。
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/4.png)
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/5.png)
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/6.png)
+![image](https://github.com/WHJX272/Ocr_For_ID/blob/master/study_and_makeError/7.png)
+不过这么弄下来倒还是让我理解了之后要做的工作。
 
 ### 环境配置
-仅提供 Anaconda 的环境配置\
-先不要尝试换源, 实在下载慢再说
+仅提供 Anaconda 的环境配置
 1. 前往 [清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/) 下载最新版本的 anaconda
 2. 打开 Anaconda Prompt
 3. 输入 `conda create -n <your_env_name> python=3.7` 创建虚拟环境
